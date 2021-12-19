@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+div.iplTest {
+    border: solid #999999 2px;
+    height: 600px;
+    background-color: #f9fff0;
+    margin-left: 100px;
+}
+div.iplNodebar {
+    display: flex;
+    height: 60px;
+    border-bottom: solid #999999 2px; 
+    background-color: #eeeeee;
+}
+img.iplIcon {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding: 2px;
+}
+div.iplWorkspace {
+    position: relative;
+    overflow: auto;
+    background-color: #fff9f9;
+}
+div.iplArea {
+    position:absolute;
+    border: solid transparent 4px;
+}
